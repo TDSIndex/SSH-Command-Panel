@@ -1,0 +1,27 @@
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlignTrailingComments: true
+BreakBeforeBraces: Attach
+BraceWrapping:
+  AfterFunction: false
+  AfterControlStatement: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+  AfterClass: false
+  AfterEnum: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+BinPackParameters: false
+BinPackArguments: false
+AlignAfterOpenBracket: false
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakAfterDefinitionReturnType: None
+ColumnLimit: 200
+NamespaceIndentation: All
+AccessModifierOffset: -4
+SeparateDefinitionBlocks: Always
