@@ -13,8 +13,7 @@
                     "name": "PATH",
                     "value": "${env:PATH}:${command:cmake.getLaunchTargetDirectory}"
                 }
-            ],
-            "externalConsole": true
+            ]
         }
     ]
 }
