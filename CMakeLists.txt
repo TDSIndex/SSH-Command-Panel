@@ -25,6 +25,13 @@ add_executable(
     Source/Main.cpp
 )
 
+set_target_properties(
+    ${PROJECT_NAME}
+    PROPERTIES
+    WIN32_EXECUTABLE
+    True
+)
+
 target_include_directories(
     ${PROJECT_NAME}
     PRIVATE
